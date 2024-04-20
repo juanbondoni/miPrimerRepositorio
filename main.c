@@ -3,7 +3,7 @@
 #include "Operaciones.h"
 #include <string.h>
 #include <ctype.h>
-
+//hola que tal
 ///carga las memorias y carga la tabla de segemento
 int cargaMemoria(comp* componetes,FILE* archB){
   char reg[8],aux;
