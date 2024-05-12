@@ -1,6 +1,5 @@
-MOV AL, %08
-MOV EDX, DS
-ADD EDX, 11
-MOV CL, 1
-MOV CH, 1
-SYS %1
+mov edx,3
+cmp edx,3
+jmp fin
+fin: stop
+hola que tañl
